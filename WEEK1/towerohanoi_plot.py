@@ -1,8 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 
-data = pd.read_csv("hanoi_data.csv")
+script_dir = Path(__file__).resolve().parent
+data_path = script_dir / "hanoi_data.csv"
+data = pd.read_csv(data_path)
 
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
