@@ -49,4 +49,5 @@ T(n)=2T(n−1)+1
 The total number of moves required is: T(n)=2^n -1 
 The plot shows exponential growth, meaning the number of moves approximately doubles whenever one more disk is added.
 Therefore, the time complexity of the Tower of Hanoi algorithm is:O(2^n)
-Since the running time grows exponentially, the algorithm is practical only for small values of n. Even a modest increase in the number of disks causes a very large increase in the required number of moves.*/
+Since the running time grows exponentially, the algorithm is practical only for small values of n. Even a modest increase in the number of disks causes a very large increase in the required number of moves.
+*/

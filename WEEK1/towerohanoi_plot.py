@@ -44,4 +44,4 @@ plt.tight_layout()
 plt.savefig("hanoi_moves.png", dpi=150, bbox_inches="tight")
 
 
-plt.show()
+plt.show() 
